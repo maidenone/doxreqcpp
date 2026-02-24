@@ -31,12 +31,8 @@ add_compile_options(
     -Wformat=2
 )
 
-# ---- Library ----
-
-
 add_executable(${PROJECT_NAME}
-    src/main.cpp
-    src/math_function.cpp
+    main.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/lib)
